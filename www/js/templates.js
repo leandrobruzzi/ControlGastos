@@ -6,13 +6,35 @@ var homeView = ''+
 				'<input type="button" value="Ir al PagB " id="goPagB" />'+
 			'</div>';
 
-var loginView = ''+		
-			'<div id="login-view">'+
-				'<h1>Estoy en el Login</h1>'+
-				'<input type="button" value="Ir al Home " id="goHome" />'+
-				'<input type="button" value="Ir al PagA"  id="goPagA" />'+
-				'<input type="button" value="Ir al PagB"  id="goPagB" />'+
+var loginView = '';		
+loginView +='<div id="login-view">';
+//				'<h1>Estoy en el Login</h1>'+
+//				'<input type="button" value="Ir al Home " id="goHome" />'+
+//				'<input type="button" value="Ir al PagA"  id="goPagA" />'+
+//				'<input type="button" value="Ir al PagB"  id="goPagB" />'+
+
+loginView +='<div id="login-logo">'+
+				'<div id="login-logo-cuerpo"><span class="milky">Control&aacute; tus gastos</span></div>'+
 			'</div>';
+
+loginView +='<div id="login-ingreso">'+
+				'<div id="login-ingreso-contenedor">'+
+					'<i class="fa fa-user" aria-hidden="true" id="awesome"></i><input type="text" id="usuario" placeholder="Usuario">'+
+				'</div>'+
+				'<div id="login-ingreso-contenedor">'+
+					'<i class="fa fa-lock" aria-hidden="true" id="awesome"></i><input type="password" id="contrasenia" placeholder="Contrase&ntilde;a">'+
+				'</div>'+
+				'<div id="login-ingreso-botones">'+
+				'</div>'+
+			'</div>';
+
+
+loginView +='<div id="login-acciones"></div>';
+
+
+
+
+loginView +='</div>';
 
 var pagAView = ''+
 			'<div id="pagA-view">'+

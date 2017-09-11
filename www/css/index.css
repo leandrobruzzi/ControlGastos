@@ -1,5 +1,7 @@
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+	margin: auto;
+	padding: 0;
 }
 
 body {
@@ -12,4 +14,121 @@ body {
     margin:0px;
     padding:0px;
     width:100%;
+	position: absolute;
+}
+/*	App		*/
+div#app{
+	width:100%;
+	height:100%;
+}
+
+/*	------------- Login ------------- */
+div#login-view{
+	width:100%;
+	height:100%;
+	background-image: url("../img/FondoLogin.jpg");
+}
+/*	Login-Logo */
+div#login-view div#login-logo{
+	width:100%;
+	height:40%;
+/* 	background-color: red; */
+	float: left;
+}
+div#login-view div#login-logo-cuerpo{
+/* 	background-color:green; */
+	margin-top:25%;
+}
+
+/*	Login-Ingreso */
+div#login-view div#login-ingreso{
+	width:100%;
+	height:40%;
+	/*background-color: blue;*/
+	float: left;
+	text-align: center;
+}
+div#login-view div#login-ingreso #login-ingreso-contenedor{
+	width: 75%;
+	height: 45px;
+	margin-top: 15px;
+	/*background-color: white;*/
+}
+
+div#login-view div#login-ingreso #login-ingreso-botones{
+	width: 75%;
+	height: 45px;
+	margin-top: 35px;
+	background-color: white;
+}
+div#login-view div#login-ingreso input{
+	height: 100%;
+ 	width: 85%;
+	font-size: 20px;
+	border-radius:10px;
+}
+div#login-view div#login-ingreso #awesome{
+	font-size: 30px;
+	color: white;
+	margin-right: 4px; 
+}
+
+/*	Login-Acciones */
+div#login-view div#login-acciones{
+	width:100%;
+	height:20%;
+	background-color: green;
+	float: left;
+}
+
+/* ---------------------------------- */
+
+
+/* Fuentes */
+.milky {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+  text-transform: uppercase;
+  display: block;
+  font-size: 40px;
+  color: #f1ebe5;
+  text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+  font-weight: bold;
+  letter-spacing: -4px;
+  text-align: center;
+/*   background: linear-gradient(to bottom, #ece4d9 0%,#e9dfd1 100%); */
+/*   position: absolute; */
+/*   padding: 100px 200px; */
+/*   top: 50%; */
+/*   left: 50%; */
+/*   transform: translate(-50%,-50%); */
+  border-radius: 20px;
+}
+
+/* PLACEHOLDER */
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #d1d4d6;
+	font-style: italic;
+	padding-left: 5px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #d1d4d6;
+   font-style: italic;
+   padding-left: 5px;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #d1d4d6;
+   font-style: italic;
+   padding-left: 5px;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #d1d4d6;
+   font-style: italic;
+   padding-left: 5px;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #d1d4d6;
+   font-style: italic;
+   padding-left: 5px;
 }
