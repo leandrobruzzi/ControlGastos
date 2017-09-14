@@ -1,0 +1,17 @@
+{
+    "name": "ar.com.controlgastos",
+    "version": "0.0.1",
+    "displayName": "Control Gastos",
+    "cordova": {
+        "platforms": [
+            "android"
+        ],
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        }
+    },
+    "dependencies": {
+        "cordova-android": "~6.2.3",
+        "cordova-plugin-whitelist": "1"
+    }
+}

@@ -1,4 +1,5 @@
-var app = {
+
+	var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
@@ -25,7 +26,6 @@ var app = {
 };
 
 app.initialize();
-
 
 
 // ----------------Test Cambio de Paginas--------------------------
